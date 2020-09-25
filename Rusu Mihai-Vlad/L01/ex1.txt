@@ -1,0 +1,9 @@
+Stack Overflow este un site utilizat de catre programatori fie ei profesionisti sau amatori in care pot pune intrebari si raspunusri legate de un subiect din programare.
+
+Functionalitati: 
+O prima functionalitate care se afla pe StackOverflow este un sistem de login si de inregistrare. Un vizitator se poate inregistra sau conecta cu contul de google/facebook. 
+Dupa ce utilizatorul s-a conectat, pe prima pagina poate vedea intrebarile adresate de alti utilizatori, iar prin anumite filtre le poate vedea pe cele mai interesante, cautate , noi si pe cele din ultima saptamana sau ultima luna. In dreptul acestor intrebari utilizatorul poate vedea cate voturi are intrebarea, raspunsuri, vizualizari, titlu, subiectul intrebarii(printr-un tag) si cand a fost adaugat un raspuns la intrebare. Acesta poate chiar si sa puna o intrebare sau un raspuns la o intrebare.
+Exista si un sistem de voting, utilizatorul poate vota o intrebare/raspuns pe care l-a ajutat sau nu l-a ajutat cu vote-up sau vote-down.
+In partea de sus a paginii(in navbar) utilizatorul poate sa caute printr-un searchbox intrebari despre subiectul(tag) pe care il intereseaza(de exemplu scrie javascript si apar intrebarile cu acest tag), dar si intrebarile puse de un autor(utilizator) pe care il cunoaste.
+Utilizatorul in sidebar, mai poate vedea toate tag-urile, descrierea acestora, cate intrebari s-au pus din acest tag si cate intrebari s-au pus saptamana aceasta din subiectul respectiv. Tot in sidebar poate vedea toti utilizatorii, reputatia acestora si tag-urile cele mai des utilizate. Exista si un sistem de reputatie, acesta se obtine pe fiecare up-vote pe care utilizatorul il primeste la un raspuns sau o intrebare utila.
+O alta functionalitate ar fi sistemul de gasire a unui job, utilizatorul poate vedea toate joburile cu posturi libere, poate aplica la un job si poate sa isi filtreze domeniul de interes. O companie poate adauga un job daca are posturi libere pe o anumita functie.
