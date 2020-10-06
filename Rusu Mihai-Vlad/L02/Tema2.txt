@@ -1,0 +1,29 @@
+Mai jos am identificat evenimentele si contextele din domeniul aplicatiei StackOverflow.
+
+Evenimente:
+-> Inregistrarea utilizatorului
+-> Autentificarea
+-> Aplicarea la un job/Adaugarea unui job
+-> Cautarea unui job
+-> Intrebare adaugata
+-> Editarea unei intrebari
+-> Stergerea unei intrebari
+-> Raspuns adaugat 
+-> Stergerea raspunsului
+-> Editarea raspunsului
+-> Votarea unui raspuns/Votarea unei intrebari
+-> Cresterea sau scaderea reputatie(in functie de voturi)
+-> Subiect adaugat/cautat
+-> Notificari
+-> Alegerea raspunsului corect
+
+
+Context:
+-> Contextul raspunsului
+-> Contextul intrebarilor
+-> Contextul reputatiei
+-> Contextul jobului
+-> Contextul notificarii
+-> Contextul autentificarii
+-> Contextul votarii
+-> Contextul subiectelor
