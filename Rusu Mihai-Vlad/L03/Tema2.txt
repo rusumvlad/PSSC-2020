@@ -1,0 +1,48 @@
+Workflows
+
+	Bounded context:  "Question Context"
+	 Workflow: "Post a new Question"
+
+                                   ->Triggered by: "Post question request received"
+                                   ->Input: "Ask a public question form (Title,Body,Tags)"
+                                   ->Other Inputs (validation of the text via ML)
+                                   ->Output: "New question accepted and posted"
+								   ->Side effects: User gets notification
+
+Workflows documentation:
+
+		Workflow:"Add question"
+			Input: "Ask a public question form"
+			Output: "Question posted" event or Invalid Ask a public question form
+
+//step1
+    
+     Do validate question form
+		If form is invalid then
+			Stop
+
+//step2 
+ 
+     Send notification to confirm the question was created
+
+//step3
+
+   return "Question posted" event
+
+
+-	Substep: "Validate Ask Question form"
+ 
+                       - Input:"Invalidated Ask a public Question form"
+                       - Output:"Validated Ask a public Question form"
+                       - Dependencies: "Validation of the text via ML"
+					   
+- 	Check if the user is logged 
+-	Validate the title(must be at least 15 characters)
+-	Validate the body(must be at least 30 characters)
+-	Validate the tags(must be at least one tag)
+
+         If all validation passed then
+                  return Validated Ask a public Question Form
+				  user gets notification for confirmation
+         Else
+                 return Validation error
