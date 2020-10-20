@@ -9,7 +9,8 @@ namespace Profile.Domain.CreateProfileWorkflow
     [AsChoice]
     public static partial class CreateProfileResult
     {
-        public interface ICreateProfileResult { }
+        public interface ICreateProfileResult
+        {    }
 
         public class ProfileCreated: ICreateProfileResult
         {

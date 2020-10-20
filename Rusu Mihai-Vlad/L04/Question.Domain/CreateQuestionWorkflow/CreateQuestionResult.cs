@@ -9,7 +9,9 @@ namespace Question.Domain.CreateQuestionWorkflow
     [AsChoice]
     public static partial class CreateQuestionResult
     {
-        public interface ICreateQuestionResult { }
+        public interface ICreateQuestionResult
+        {
+        }
 
         public class QuestionCreated : ICreateQuestionResult
         {
