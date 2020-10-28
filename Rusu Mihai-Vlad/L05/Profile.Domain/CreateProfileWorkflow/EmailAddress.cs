@@ -3,6 +3,7 @@ using LanguageExt.Common;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Profile.Domain.CreateProfileWorkflow
 {
@@ -35,10 +36,9 @@ namespace Profile.Domain.CreateProfileWorkflow
 
             private static bool IsEmailAddressValid(string email)
             {
-                //TODO: validate email address based on RegEx
-
-                //validate 
-                if (email.Length >= 6)
+                Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+                Match match = regex.Match(email);
+                if (match.Success && email.Length >= 6)
                 {
                     return true;
                 }
